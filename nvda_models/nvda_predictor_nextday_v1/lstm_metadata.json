@@ -1,0 +1,20 @@
+{
+  "sequence_length": 60,
+  "feature_cols": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume",
+    "RSI",
+    "SMA_20",
+    "EMA_50",
+    "MACD",
+    "BB_upper",
+    "BB_lower",
+    "Volatility_20",
+    "Volume_Ratio",
+    "ROC_10"
+  ],
+  "close_idx": 3
+}

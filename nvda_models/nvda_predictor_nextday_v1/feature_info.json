@@ -1,0 +1,47 @@
+{
+  "total_features": 34,
+  "feature_names": [
+    "Open",
+    "High",
+    "Low",
+    "Close",
+    "Volume",
+    "RSI",
+    "SMA_20",
+    "EMA_50",
+    "MACD",
+    "BB_upper",
+    "BB_middle",
+    "BB_lower",
+    "Price_Change",
+    "Direction",
+    "SMA5",
+    "SMA20",
+    "SMA50",
+    "MACD_Signal",
+    "Returns",
+    "Log_Returns",
+    "Volatility_20",
+    "Volatility_60",
+    "Volume_Ratio",
+    "Dollar_Volume",
+    "HL_Spread",
+    "CO_Spread",
+    "ROC_10",
+    "ROC_30",
+    "Resistance",
+    "Support",
+    "SR_Position",
+    "Avg_Trade_Size",
+    "Trend_Strength",
+    "Volatility_Regime"
+  ],
+  "data_shape": [
+    6368,
+    34
+  ],
+  "date_range": {
+    "start": "2000-06-16",
+    "end": "2025-10-10"
+  }
+}

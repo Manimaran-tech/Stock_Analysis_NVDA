@@ -1,0 +1,17 @@
+{
+  "current_price": 183.16,
+  "ensemble": 186.57852580947434,
+  "individual_models": {
+    "ARIMA-GARCH": 183.27938276258453,
+    "XGBoost": 182.54010367167183,
+    "LSTM-GRU": 191.04346928149462,
+    "Monte_Carlo": 183.04518242039848
+  },
+  "weights": {
+    "ARIMA-GARCH": 0.15,
+    "XGBoost": 0.2,
+    "LSTM-GRU": 0.45,
+    "Monte_Carlo": 0.2
+  },
+  "recent_trend": -0.01282742265818689
+}

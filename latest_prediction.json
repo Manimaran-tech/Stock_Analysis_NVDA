@@ -1,0 +1,28 @@
+{
+  "timestamp": "2025-10-22T13:28:23.758813",
+  "data_date": "2025-10-21",
+  "current_price": 181.16,
+  "predictions": {
+    "lstm_gru": 189.1776311337948,
+    "xgboost": 180.14856222584842,
+    "arima_garch": 181.27807917268953,
+    "monte_carlo": 183.04518242039848,
+    "ensemble": 184.96039481536047
+  },
+  "change_pct": 2.097811225083057,
+  "signal": "\ud83d\udfe2 STRONG BUY",
+  "confidence_intervals": {
+    "lower_95": 182.06780321055334,
+    "lower_75": 182.65262970428373,
+    "median": 183.04518242039848,
+    "upper_75": 183.45843703374152,
+    "upper_95": 184.04659595828102
+  },
+  "risk_metrics": {
+    "expected_return": 1.8664150521261913,
+    "VaR_95": -0.5963074849566818,
+    "CVaR_95": -0.7262681674046025,
+    "sharpe_ratio": 6.789859426223321,
+    "volatility_forecast": 4.363164075026789
+  }
+}

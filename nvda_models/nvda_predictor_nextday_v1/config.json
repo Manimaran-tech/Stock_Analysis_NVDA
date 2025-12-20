@@ -1,0 +1,22 @@
+{
+  "model_type": "AdvancedNVDAPredictor_NextDay",
+  "version": "1.0",
+  "saved_date": "2025-10-12T22:57:31.694146",
+  "data_path": "NVDA_dataset_updated.csv",
+  "prediction_days": 1,
+  "last_data_date": "2025-10-10",
+  "architecture": {
+    "lstm_units": 128,
+    "gru_units": 128,
+    "attention_heads": 4,
+    "sequence_length": 60,
+    "dropout_rate": 0.2,
+    "conv_filters": 64
+  },
+  "ensemble_weights": {
+    "ARIMA-GARCH": 0.15,
+    "XGBoost": 0.2,
+    "LSTM-GRU": 0.45,
+    "Monte_Carlo": 0.2
+  }
+}
